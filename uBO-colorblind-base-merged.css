@@ -1,15 +1,8 @@
 /* COLORBLIND MODE */
+
+/* #00136e = dark blue */
 body.colorBlind #vwRenderer .logEntry > div[data-status="1"],
-body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="1"] {
-  background-color: #00136e1a;
-}
-body.colorBlind #vwRenderer .logEntry > div[data-status="3"] {
-  background-color: #6060601a;
-}
-body.colorBlind #vwRenderer .logEntry > div[data-status="2"],
-body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"] {
-  background-color: #ffc2391a;
-}
+body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="1"],
 body.colorBlind #vwRenderer .logEntry > div.cosmetic,
 body.colorBlind #vwRenderer .logEntry > div.redirect {
   background-color: #00136e1a;
@@ -18,64 +11,55 @@ body.colorBlind #vwRenderer .logEntry > div[data-status="1"] > span:nth-of-type(
 body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="1"] b {
   background-color: #00136e33;
 }
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.block,
+body.advancedUser #firewallContainer.colorBlind > div > span.blockRule {
+  background-color: #00136e66;
+}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.own.block,
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action > .block,
+#firewallContainer.colorBlind > div.blocked > span:first-of-type::before,
+#firewallContainer.colorBlind.minimized > div.isDomain.totalBlocked > span:first-of-type::before,
+body.advancedUser #firewallContainer.colorBlind > div > span.blockRule.ownRule,
+#actionSelector.colorBlind > span:nth-of-type(3) {
+  background-color: #00136eff;
+}/**/
+
+/* #606060 = grey */
+body.colorBlind #vwRenderer .logEntry > div[data-status="3"] {
+  background-color: #6060601a;
+}
 body.colorBlind #vwRenderer .logEntry > div[data-status="3"] > span:nth-of-type(7) b {
   background-color: #60606033;
+}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.noop,
+body.advancedUser #firewallContainer.colorBlind > div > span.noopRule {
+  background-color: #60606066;
+}/**/
+
+/* #6c6c6c = light grey */
+#netFilteringDialog > div.panes > .dynamic .entry > .action.own.noop,
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.own.noop {
+  background-color: #6c6c6cff;
+}/**/
+
+/* #ffc239 = yellow */
+body.colorBlind #vwRenderer .logEntry > div[data-status="2"],
+body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"] {
+  background-color: #ffc2391a;
 }
 body.colorBlind #vwRenderer .logEntry > div[data-status="2"] > span:nth-of-type(7) b,
 body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"] b {
   background-color: #ffc23933;
 }
-body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.allow {
-  background-color: #ffc23966;
-}
-body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.noop {
-  background-color: #60606066;
-}
-body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.block {
-  background-color: #00136e66;
-}
-body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.own.allow {
-  background-color: #ffc239ff;
-}
-#netFilteringDialog > div.panes > .dynamic .entry > .action.own.noop,
-body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.own.noop {
-  background-color: #6c6c6cff;
-}
-body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.own.block {
-  background-color: #00136eff;
-}
-body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action > .allow {
-  background-color: #ffc239;
-}
-body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action > .block {
-  background-color: #00136e;
-}
-#firewallContainer.colorBlind > div.allowed > span:first-of-type::before,
-#firewallContainer.colorBlind.minimized > div.isDomain.totalAllowed > span:first-of-type::before {
-  background-color: #ffc239;
-}
-#firewallContainer.colorBlind > div.blocked > span:first-of-type::before,
-#firewallContainer.colorBlind.minimized > div.isDomain.totalBlocked > span:first-of-type::before {
-  background-color: #00136e;
-}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.allow,
 body.advancedUser #firewallContainer.colorBlind > div > span.allowRule {
   background-color: #ffc23966;
 }
-body.advancedUser #firewallContainer.colorBlind > div > span.blockRule {
-  background-color: #00136e66;
-}
-body.advancedUser #firewallContainer.colorBlind > div > span.noopRule {
-  background-color: #60606066;
-}
-body.advancedUser #firewallContainer.colorBlind > div > span.allowRule.ownRule {
-  background-color: #ffc239ff;
-}
-body.advancedUser #firewallContainer.colorBlind > div > span.blockRule.ownRule {
-  background-color: #00136eff;
-}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.own.allow,
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action > .allow,
+#firewallContainer.colorBlind > div.allowed > span:first-of-type::before,
+#firewallContainer.colorBlind.minimized > div.isDomain.totalAllowed > span:first-of-type::before,
+body.advancedUser #firewallContainer.colorBlind > div > span.allowRule.ownRule,
 #actionSelector.colorBlind > span:first-of-type {
-  background-color: #ffc239;
-}
-#actionSelector.colorBlind > span:nth-of-type(3) {
-  background-color: #00136e;
-}
+  background-color: #ffc239ff;
+}/**/
