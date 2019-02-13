@@ -1,0 +1,81 @@
+/* COLORBLIND MODE */
+body.colorBlind #vwRenderer .logEntry > div[data-status="1"],
+body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="1"] {
+  background-color: rgba(0, 19, 110, 0.1);
+}
+body.colorBlind #vwRenderer .logEntry > div[data-status="3"] {
+  background-color: rgba(96, 96, 96, 0.1);
+}
+body.colorBlind #vwRenderer .logEntry > div[data-status="2"],
+body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"] {
+  background-color: rgba(255, 194, 57, 0.1)
+}
+body.colorBlind #vwRenderer .logEntry > div.cosmetic,
+body.colorBlind #vwRenderer .logEntry > div.redirect {
+  background-color: rgba(0, 19, 110, 0.1);
+}
+body.colorBlind #vwRenderer .logEntry > div[data-status="1"] > span:nth-of-type(7) b,
+body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="1"] b {
+  background-color: rgba(0, 19, 110, 0.2);
+}
+body.colorBlind #vwRenderer .logEntry > div[data-status="3"] > span:nth-of-type(7) b {
+  background-color: rgba(96, 96, 96, 0.2);
+}
+body.colorBlind #vwRenderer .logEntry > div[data-status="2"] > span:nth-of-type(7) b,
+body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"] b {
+  background-color: rgba(255, 194, 57, 0.2);
+}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.allow {
+  background-color: rgba(255, 194, 57, 0.4);
+}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.noop {
+  background-color: rgba(96, 96, 96, 0.4);
+}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.block {
+  background-color: rgba(0, 19, 110, 0.4);
+}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.own.allow {
+  background-color: rgba(255, 194, 57, 1);
+}
+#netFilteringDialog > div.panes > .dynamic .entry > .action.own.noop,
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.own.noop {
+  background-color: rgba(108, 108, 108, 1);
+}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action.own.block {
+  background-color: rgba(0, 19, 110, 1);
+}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action > .allow {
+  background-color: rgb(255, 194, 57);
+}
+body.colorBlind #netFilteringDialog > div.panes > .dynamic .entry > .action > .block {
+  background-color: rgb(0, 19, 110);
+}
+#firewallContainer.colorBlind > div.allowed > span:first-of-type::before,
+#firewallContainer.colorBlind.minimized > div.isDomain.totalAllowed > span:first-of-type::before {
+  background-color: rgb(255, 194, 57);
+}
+#firewallContainer.colorBlind > div.blocked > span:first-of-type::before,
+#firewallContainer.colorBlind.minimized > div.isDomain.totalBlocked > span:first-of-type::before {
+  background-color: rgb(0, 19, 110);
+}
+body.advancedUser #firewallContainer.colorBlind > div > span.allowRule {
+  background-color: rgba(255, 194, 57, 0.4);
+}
+body.advancedUser #firewallContainer.colorBlind > div > span.blockRule {
+  background-color: rgba(0, 19, 110, 0.4);
+}
+body.advancedUser #firewallContainer.colorBlind > div > span.noopRule {
+  background-color: rgba(96, 96, 96, 0.4);
+}
+body.advancedUser #firewallContainer.colorBlind > div > span.allowRule.ownRule {
+  background-color: rgba(255, 194, 57, 1);
+}
+body.advancedUser #firewallContainer.colorBlind > div > span.blockRule.ownRule {
+  background-color: rgba(0, 19, 110, 1);
+}
+#actionSelector.colorBlind > span:first-of-type {
+  background-color: rgb(255, 194, 57);
+}
+#actionSelector.colorBlind > span:nth-of-type(3) {
+  background-color: rgb(0, 19, 110);
+}
