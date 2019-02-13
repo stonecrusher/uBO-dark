@@ -1,184 +1,184 @@
 /* shortcuts.css */
 /*************************/
 .commandEntries td.commandShortcut input:focus {
-  outline-color: #0000ff;
+  outline-color: #0000ffff;
 }
 .commandEntries td.commandShortcut input ~ .commandReset {
-  color: #888888;
+  color: #888888ff;
 }
 .commandEntries td.commandShortcut input ~ .commandReset:hover {
-  background-color: #eeeeee;
-  color: #000000;
+  background-color: #eeeeeeff;
+  color: #000000ff;
 }
 
 /* advanced-settings.css */
 /*************************/
 #advancedSettings {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #ddddddff;
 }
 
 /* cloud-ui.css */
 /*************************/
 #cloudWidget {
-  background: url("../img/cloud.png") #dbeaff;
+  background: url("../img/cloud.png") #dbeaffff;
 }
 #cloudWidget button.error {
-  color: #ff0000;
+  color: #ff0000ff;
 }
 #cloudInfo {
-  color: #808080;
+  color: #808080ff;
 }
 #cloudError {
-  color: #ff0000;
+  color: #ff0000ff;
 }
 #cloudWidget > #cloudOptions {
   background-color: #000000bf;
 }
 #cloudWidget > #cloudOptions > div {
-  background-color: #ffffff;
+  background-color: #ffffffff;
 }
 
 /* 3p-filters.css */
 /*************************/
 #listsOfBlockedHostsPrompt:before {
-  color: #888888;
+  color: #888888ff;
 }
 .groupEntry:not([data-groupkey="user"]) .geDetails:before {
-  color: #888888;
+  color: #888888ff;
 }
 .listEntry > a.remove,
 .listEntry > a.remove:visited {
-  color: #8b0000;
+  color: #8b0000ff;
 }
 .listEntry.mustread > a.mustread:hover {
-  color: #0000cd;
+  color: #0000cdff;
 }
 .listEntry span.status {
-  color: #444444;
+  color: #444444ff;
 }
 .listEntry span.unsecure {
-  color: #8b0000;
+  color: #8b0000ff;
 }
 .listEntry span.failed {
-  color: #8b0000;
+  color: #8b0000ff;
 }
 .listEntry span.obsolete {
-  color: #cc7a00;
+  color: #cc7a00ff;
 }
 .listEntry.toImport > input[type="checkbox"] ~ textarea {
-  border-color: #cccccc;
+  border-color: #ccccccff;
 }
 
 /* codemirror.css */
 /*************************/
 .cm-s-default .cm-comment {
-  color: #777777;
+  color: #777777ff;
 }
 .cm-staticext {
-  color: #000088;
+  color: #000088ff;
 }
 .cm-staticnetBlock {
-  color: #880000;
+  color: #880000ff;
 }
 .cm-staticnetAllow {
-  color: #004f00;
+  color: #004f00ff;
 }
 .cm-staticOpt {
-  background-color: #dddddd;
+  background-color: #ddddddff;
   font-weight: bold;
 }
 .cm-search-widget {
-  background-color: #eeeeee;
+  background-color: #eeeeeeff;
 }
 .cm-search-widget .fa {
-  color: #888888;
+  color: #888888ff;
 }
 .cm-search-widget-input {
-  border-color: #808080;
+  border-color: #808080ff;
 }
 .cm-search-widget-input > .cm-search-widget-count {
-  color: #888888;
+  color: #888888ff;
 }
 .cm-search-widget .cm-search-widget-button:hover {
-  color: #000000;
+  color: #000000ff;
 }
 
 /* common.css */
 /*************************/
 body {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #ffffffff;
+  color: #000000ff;
 }
 code {
-  background-color: #eeeeee;
+  background-color: #eeeeeeff;
 }
 button.custom {
-  border-color: #cccccc #cccccc #bbbbbb #bbbbbb;
-  background-color: #bfbfbf;
+  border-color: #cccccc #cccccc #bbbbbb #bbbbbbff;
+  background-color: #bfbfbfff;
   background-image: linear-gradient(#f2f2f2, #dddddd);
-  color: #000000;
+  color: #000000ff;
 }
 button.custom.important {
-  border-color: #ffcc7f #ffcc7f #ffc875;
-  background-color: #ffcc80;
+  border-color: #ffcc7f #ffcc7f #ffc875ff;
+  background-color: #ffcc80ff;
   background-image: linear-gradient(#ffdca8, #ffcc7f);
 }
 button.custom.disabled,
 button.custom[disabled],
 button.custom.important.disabled,
 button.custom.important[disabled] {
-  border-color: #dddddd #dddddd #d9d9d9;
-  background-color: #b8b8b8;
+  border-color: #dddddd #dddddd #d9d9d9ff;
+  background-color: #b8b8b8ff;
   background-image: linear-gradient(#f2f2f2, #dddddd);
-  color: #666666;
+  color: #666666ff;
 }
 .ubo-icon.disabled,
 .disabled > .ubo-icon,
 .ubo-icon[disabled],
 [disabled] > .ubo-icon {
-  color: #000000;
-  fill: #000000;
-  stroke: #888888;
+  color: #000000ff;
+  fill: #000000ff;
+  stroke: #888888ff;
 }
 
 /* dashboard.css */
 /*************************/
 #dashboard-nav-widgets {
-  background-color: #ffffff;
-  border-bottom: 1px solid #cccccc;
+  background-color: #ffffffff;
+  border-bottom: 1px solid #ccccccff;
 }
 .tabButton {
-  background-color: #eeeeee;
-  border: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
-  color: #000000;
+  background-color: #eeeeeeff;
+  border: 1px solid #ccccccff;
+  border-bottom: 1px solid #ccccccff;
+  color: #000000ff;
 }
 .tabButton.selected {
-  background-color: #ffffff;
-  border-bottom: 1px solid #ffffff;
+  background-color: #ffffffff;
+  border-bottom: 1px solid #ffffffff;
 }
 
 /* dashboard-common.css */
 /*************************/
 body {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #ffffffff;
+  color: #000000ff;
 }
 a.info {
-  color: #000000;
+  color: #000000ff;
 }
 a.info.important {
-  color: #ff4500;
+  color: #ff4500ff;
 }
 .whatisthis {
   background: url('../img/help16.png') no-repeat;
 }
 .whatisthis-expandable {
-  border-color: #000000;
-  background-color: #F8F8F8;
+  border-color: #000000ff;
+  background-color: #F8F8F8ff;
 }
 .warn {
-  background-color: #FEDAE0;
+  background-color: #FEDAE0ff;
 }
 
 /* document-blocked.css */
@@ -187,27 +187,27 @@ a.info.important {
   background-color: #0000001a;
 }
 #warningSign > a {
-  fill: #f2a500;
+  fill: #f2a500ff;
 }
 #parsed {
-  background-color: #f8f8f8;
+  background-color: #f8f8f8ff;
   border-color: #0000001a;
-  color: #808080;
+  color: #808080ff;
 }
 
 /* dyna-rules.css */
 /*************************/
 #diff {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeeeff;
 }
 #ruleFilter .fa {
-  color: #888888;
+  color: #888888ff;
 }
 #diff.editing .CodeMirror-merge-left .CodeMirror {
-  color: #888888;
+  color: #888888ff;
 }
 #diff.editing .CodeMirror-merge-editor .CodeMirror {
-  background-color: #ffffee;
+  background-color: #ffffeeff;
 }
 
 /* fa-icons.css */
@@ -216,48 +216,48 @@ a.info.important {
 .disabled > .fa-icon,
 .fa-icon[disabled],
 [disabled] > .fa-icon {
-  color: #000000;
-  fill: #000000;
-  stroke: #888888;
+  color: #000000ff;
+  fill: #000000ff;
+  stroke: #888888ff;
 }
 
 /* logger-ui.css */
 /*************************/
 body {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #ffffffff;
+  color: #000000ff;
 }
 .permatoolbar {
-  background-color: #ffffff;
+  background-color: #ffffffff;
 }
 .permatoolbar .button.active {
-  fill: #5F9EA0;
+  fill: #5F9EA0ff;
 }
 .permatoolbar .button:hover {
-  background-color: #eeeeee;
+  background-color: #eeeeeeff;
 }
 #info {
-  fill: #cccccc;
+  fill: #ccccccff;
 }
 #info:hover {
-  fill: #000000;
+  fill: #000000ff;
 }
 #netInspector.paused #pause > span:last-of-type {
-  fill: #5F9EA0;
+  fill: #5F9EA0ff;
 }
 #netInspector #filterExprPicker {
-  background-color: #ffffff;
-  border-color: #808080;
+  background-color: #ffffffff;
+  border-color: #808080ff;
 }
 #netInspector #filterExprPicker > div {
-  border-color: #dddddd;
+  border-color: #ddddddff;
 }
 #netInspector #filterExprPicker span[data-filtex]:hover {
-  background-color: #f0f8ff;
+  background-color: #f0f8ffff;
 }
 #netInspector #filterExprPicker span.on[data-filtex] {
-  background-color: #add8e6;
-  border-color: #add8e6;
+  background-color: #add8e6ff;
+  border-color: #add8e6ff;
 }
 #vwRenderer .logEntry > div[data-status="1"],
 #netFilteringDialog > .panes > .details > div[data-status="1"] {
@@ -271,24 +271,24 @@ body {
   background-color: #00a0001a;
 }
 #vwRenderer .logEntry > div[data-tabid="-1"] {
-  text-shadow: 0 0.2em 0.4em #aaaaaa;
+  text-shadow: 0 0.2em 0.4em #aaaaaaff;
 }
 #vwRenderer .logEntry > div.cosmetic,
 #vwRenderer .logEntry > div.redirect {
   background-color: #ffff001a;
 }
 #vwRenderer .logEntry > div[data-type="tabLoad"] {
-  background-color: #666666;
-  color: #ffffff;
+  background-color: #666666ff;
+  color: #ffffffff;
 }
 #vwRenderer .logEntry > div[data-type="error"] {
-  color: #880000;
+  color: #880000ff;
 }
 #vwRenderer .logEntry > div[data-type="info"] {
-  color: #000088;
+  color: #000088ff;
 }
 #vwRenderer .logEntry > div > span {
-  border-color: #cccccc;
+  border-color: #ccccccff;
 }
 #vwRenderer .logEntry > div.canDetails:hover > span {
   background-color: #0000000a;
@@ -310,28 +310,28 @@ body {
   background-color: #00a00033;
 }
 #vwRenderer #vwBottom {
-  background-color: #0000ff;
+  background-color: #0000ffff;
 }
 #popupContainer {
-  background: #ffffff;
-  border-color: #808080;
+  background: #ffffffff;
+  border-color: #808080ff;
 }
 #modalOverlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
 #modalOverlay > div > div:nth-of-type(1) {
-  background-color: #ffffff;
+  background-color: #ffffffff;
 }
 #modalOverlay > div > div:nth-of-type(2) {
-  stroke: #000000;
-  background-color: #ffffff;
+  stroke: #000000ff;
+  background-color: #ffffffff;
 }
 #modalOverlay > div > div:nth-of-type(2):hover {
-  background-color: #eeeeee;
+  background-color: #eeeeeeff;
 }
 #netFilteringDialog > .preview {
   /* http://lea.verou.me/css3patterns/ */
-  background-color: #aaaaaa;
+  background-color: #aaaaaaff;
   background-image: linear-gradient( 45deg,
   #666666 25%,
   transparent 25%,
@@ -346,58 +346,58 @@ body {
   #666666);
 }
 #netFilteringDialog > .preview > * {
-  background-color: #ffffff;
+  background-color: #ffffffff;
 }
 #netFilteringDialog > .headers {
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #888888ff;
 }
 #netFilteringDialog > .headers > .header {
-  background-color: #eeeeee;
-  border: 1px solid #aaaaaa;
-  border-bottom: 1px solid #888888;
-  color: #888888;
+  background-color: #eeeeeeff;
+  border: 1px solid #aaaaaaff;
+  border-bottom: 1px solid #888888ff;
+  color: #888888ff;
 }
 #netFilteringDialog[data-pane="details"] > .headers > [data-pane="details"],
 #netFilteringDialog[data-pane="dynamic"] > .headers > [data-pane="dynamic"],
 #netFilteringDialog[data-pane="static"] > .headers > [data-pane="static"] {
-  background-color: #ffffff;
-  border-color: #888888;
-  border-bottom: 1px solid #ffffff;
-  color: #000000;
+  background-color: #ffffffff;
+  border-color: #888888ff;
+  border-bottom: 1px solid #ffffffff;
+  color: #000000ff;
 }
 #netFilteringDialog > .headers > .tools > span:hover {
-  background-color: #eeeeee;
+  background-color: #eeeeeeff;
 }
 #netFilteringDialog > .panes > .details > div {
-  background-color: #e6e6e6;
-  border-bottom: 1px solid #ffffff;
+  background-color: #e6e6e6ff;
+  border-bottom: 1px solid #ffffffff;
 }
 body[dir="ltr"] #netFilteringDialog > .panes > .details > div > span:nth-of-type(1) {
-  border-right: 1px solid #ffffff;
+  border-right: 1px solid #ffffffff;
 }
 body[dir="rtl"] #netFilteringDialog > .panes > .details > div > span:nth-of-type(1) {
-  border-left: 1px solid #ffffff;
+  border-left: 1px solid #ffffffff;
 }
 body[dir="ltr"] #netFilteringDialog > div.panes > .dynamic .row > span:nth-of-type(1) {
-  border-right: 1px solid #ffffff;
+  border-right: 1px solid #ffffffff;
 }
 body[dir="rtl"] #netFilteringDialog > div.panes > .dynamic .row > span:nth-of-type(1) {
-  border-left: 1px solid #ffffff;
+  border-left: 1px solid #ffffffff;
 }
 #netFilteringDialog > div.panes > .dynamic > .toolbar #saveRules {
-  background-color: #ffffee;
-  border: 1px solid #ddddcc;
-  fill: #888888;
+  background-color: #ffffeeff;
+  border: 1px solid #ddddccff;
+  fill: #888888ff;
 }
 #netFilteringDialog > div.panes > .dynamic > .toolbar #saveRules:hover {
-  fill: #000000;
+  fill: #000000ff;
 }
 #netFilteringDialog > div.panes > .dynamic .entry {
-  background-color: #e6e6e6;
-  border-bottom: 1px solid #ffffff;
+  background-color: #e6e6e6ff;
+  border-bottom: 1px solid #ffffffff;
 }
 #netFilteringDialog > div.panes > .dynamic .entry:hover {
-  background-color: #f0f0f0;
+  background-color: #f0f0f0ff;
 }
 #netFilteringDialog > div.panes > .dynamic .entry > .action.allow {
   background-color: #00a0004d;
@@ -412,41 +412,41 @@ body[dir="rtl"] #netFilteringDialog > div.panes > .dynamic .row > span:nth-of-ty
   /* see #cc00004d */
 }
 #netFilteringDialog > div.panes > .dynamic .entry > .action.own.allow {
-  background-color: #00a000;
+  background-color: #00a000ff;
 }
 #netFilteringDialog > div.panes > .dynamic .entry > .action.own.noop {
-  background-color: #6c6c6c;
+  background-color: #6c6c6cff;
 }
 #netFilteringDialog > div.panes > .dynamic .entry > .action.own.block {
-  background-color: #cc0000;
+  background-color: #cc0000ff;
 }
 #netFilteringDialog > div.panes > .dynamic .entry > .action > .allow {
-  background-color: #00a000;
+  background-color: #00a000ff;
 }
 #netFilteringDialog > div.panes > .dynamic .entry > .action > .noop {
-  background-color: #6c6c6c;
+  background-color: #6c6c6cff;
 }
 #netFilteringDialog > div.panes > .dynamic .entry > .action > .block {
-  background-color: #cc0000;
+  background-color: #cc0000ff;
 }
 #filterFinderDialog code {
-  background: #eeeeee;
+  background: #eeeeeeff;
 }
 #loggerExportDialog .options span[data-i18n] {
-  border: 1px solid #add8e6;
+  border: 1px solid #add8e6ff;
 }
 #loggerExportDialog .options span[data-i18n]:hover {
-  background-color: #f0f8ff;
+  background-color: #f0f8ffff;
 }
 #loggerExportDialog .options span.on[data-i18n],
 #loggerExportDialog .options span.pushbutton:active {
-  background-color: #add8e6;
+  background-color: #add8e6ff;
 }
 
 /* logger-ui-inspector.css */
 /*************************/
 #domInspector ul {
-  background-color: #ffffff;
+  background-color: #ffffffff;
 }
 #domInspector li.isCosmeticHide,
 #domInspector li.isCosmeticHide ul,
@@ -454,96 +454,96 @@ body[dir="rtl"] #netFilteringDialog > div.panes > .dynamic .row > span:nth-of-ty
   background-color: #fee;
 }
 #domInspector li > span {
-  color: #aaaaaa;
+  color: #aaaaaaff;
 }
 #domInspector li > span:first-child {
-  color: #000000;
+  color: #000000ff;
 }
 #domInspector li.branch.hasCosmeticHide > span:first-child:before {
-  color: #ff0000;
+  color: #ff0000ff;
 }
 #domInspector li > code.filter {
-  color: #ff0000;
+  color: #ff0000ff;
 }
 
 /* popup.css */
 /*************************/
 body {
-  background-color: #ffffff;
+  background-color: #ffffffff;
 }
 h2 {
-  background-color: #eeeeee;
-  color: #666666;
+  background-color: #eeeeeeff;
+  color: #666666ff;
 }
 #appinfo {
-  background-color: #444444;
-  color: #bbbbbb;
+  background-color: #444444ff;
+  color: #bbbbbbff;
 }
 #switch .fa-icon {
-  fill: #0046ff;
+  fill: #0046ffff;
 }
 body.off #switch .fa-icon {
-  fill: #cccccc;
+  fill: #ccccccff;
 }
 .tool {
-  color: #aaaaaa;
-  fill: #aaaaaa;
+  color: #aaaaaaff;
+  fill: #aaaaaaff;
 }
 .tool.enabled:hover {
-  color: #444444;
-  fill: #444444;
+  color: #444444ff;
+  fill: #444444ff;
 }
 .statName {
-  color: #888888;
+  color: #888888ff;
 }
 #extraTools {
-  background-color: #eeeeee;
-  color: #888888;
-  fill: #888888;
+  background-color: #eeeeeeff;
+  color: #888888ff;
+  fill: #888888ff;
 }
 #extraTools > span > .nope {
-  stroke: #ff0000;
+  stroke: #ff0000ff;
 }
 #extraTools > span:hover {
-  color: #222222;
-  fill: #222222;
+  color: #222222ff;
+  fill: #222222ff;
 }
 #refresh {
-  background-color: #ffffee;
-  border: 1px solid #ddddcc;
-  fill: #888888;
+  background-color: #ffffeeff;
+  border: 1px solid #ddddccff;
+  fill: #888888ff;
 }
 body.dirty #refresh:hover {
-  fill: #000000;
+  fill: #000000ff;
 }
 #tooltip {
-  background-color: #ffffee;
-  border: 1px solid #808080;
-  box-shadow: 1px 1px 3px #808080;
-  color: #000000;
+  background-color: #ffffeeff;
+  border: 1px solid #808080ff;
+  box-shadow: 1px 1px 3px #808080ff;
+  color: #000000ff;
 }
 #firewallContainer > div {
-  background-color: #e6e6e6;
+  background-color: #e6e6e6ff;
 }
 #firewallContainer > div:hover {
-  background-color: #f0f0f0;
+  background-color: #f0f0f0ff;
 }
 #firewallContainer > div > span {
-  border-bottom: 1px solid #ffffff;
-  color: #000000;
+  border-bottom: 1px solid #ffffffff;
+  color: #000000ff;
 }
 #firewallContainer > div > span:first-of-type > sup {
-  color: #666666;
+  color: #666666ff;
 }
 #firewallContainer > div > span:first-of-type ~ span {
-  border-left: 1px solid #ffffff;
+  border-left: 1px solid #ffffffff;
 }
 #firewallContainer > div > span:nth-of-type(3),
 #firewallContainer > div > span:nth-of-type(4) {
-  color: #444444;
+  color: #444444ff;
 }
 #firewallContainer > div:first-of-type > span:first-of-type::before {
-  color: #aaaaaa;
+  color: #aaaaaaff;
 }
 /**
 Source for color-blind color scheme from https://github.com/WyohKnott:
@@ -551,15 +551,15 @@ https://github.com/chrisaljoudi/uBlock/issues/467#issuecomment-95177219
 */
 #firewallContainer > div.allowed > span:first-of-type::before,
 #firewallContainer.minimized > div.isDomain.totalAllowed > span:first-of-type::before {
-  background-color: #00a000;
+  background-color: #00a000ff;
 }
 #firewallContainer > div.blocked > span:first-of-type::before,
 #firewallContainer.minimized > div.isDomain.totalBlocked > span:first-of-type::before {
-  background-color: #cc0000;
+  background-color: #cc0000ff;
 }
 #firewallContainer > div.allowed.blocked > span:first-of-type::before,
 #firewallContainer.minimized > div.isDomain.totalAllowed.totalBlocked > span:first-of-type::before {
-  background-color: #c0a000;
+  background-color: #c0a000ff;
 }
 /* Rule cells */
 body.advancedUser #firewallContainer > div > span.allowRule {
@@ -572,34 +572,34 @@ body.advancedUser #firewallContainer > div > span.noopRule {
   background-color: #6c6c6c4d;
 }
 body.advancedUser #firewallContainer > div > span.ownRule {
-  color: #ffffff;
+  color: #ffffffff;
 }
 body.advancedUser #firewallContainer > div > span.allowRule.ownRule {
-  background-color: #00a000;
+  background-color: #00a000ff;
 }
 body.advancedUser #firewallContainer > div > span.blockRule.ownRule {
-  background-color: #cc0000;
+  background-color: #cc0000ff;
 }
 body.advancedUser #firewallContainer > div > span.noopRule.ownRule {
-  background-color: #6c6c6c;
+  background-color: #6c6c6cff;
 }
 #actionSelector > span:first-of-type {
-  background-color: #00a000;
+  background-color: #00a000ff;
 }
 #actionSelector > span:nth-of-type(2) {
-  background-color: #6c6c6c;
+  background-color: #6c6c6cff;
 }
 #actionSelector > span:nth-of-type(3) {
-  background-color: #cc0000;
+  background-color: #cc0000ff;
 }
 #rulesetTools {
   background-color: transparent;
-  fill: #888888;
+  fill: #888888ff;
 }
 #rulesetTools > span {
-  background-color: #ffffee;
-  border: 1px solid #ddddcc;
+  background-color: #ffffeeff;
+  border: 1px solid #ddddccff;
 }
 #firewallContainer.dirty ~ #rulesetTools > span:hover {
-  fill: #000000;
+  fill: #000000ff;
 }
