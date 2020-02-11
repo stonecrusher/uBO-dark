@@ -1,0 +1,110 @@
+body {
+    background-color: #ffffffff; }
+h2 {
+    background-color: #eeeeeeff;
+    color: #666666ff; }
+hr {
+    border-top: 1px solid #ddddddff; }
+#sticky {
+    background-color: #ffffffff; }
+#switch .fa-icon {
+    fill: #0046ffff; }
+body.off #switch .fa-icon {
+    fill: #ccccccff; }
+.rulesetTools [id] {
+    background-color: #ffffeeff;
+    border: 1px solid #ddddccff;
+    fill: #888888ff; }
+.rulesetTools [id]:hover {
+    fill: #000000ff; }
+
+.tool {
+    color: #444444ff;
+    fill: #444444ff; }
+.tool.enabled:hover {
+    color: #444444ff;
+    fill: #444444ff; }
+
+#extraTools .fa-icon > .nope {
+    stroke: #ff0000ff; }
+#extraTools > span:hover {
+    color: #222222ff;
+    fill: #222222ff; }
+
+#tooltip {
+    background-color: #ffffeeff;
+    border: 1px solid #808080ff;
+    box-shadow: 1px 1px 3px #808080ff;
+    color: #000000ff; }
+
+#firewallContainer > div > span {
+    background-color: #e6e6e6ff;
+    color: #000000ff; }
+#firewallContainer > div.isCname > span:first-of-type {
+    color: #0000cdff; }
+#firewallContainer > div > span:nth-of-type(3),
+#firewallContainer > div > span:nth-of-type(4) {
+    color: #444444ff; }
+#firewallContainer > div:first-of-type > span:first-of-type::before {
+    color: #aaaaaaff; }
+
+/**
+ Small coloured label at the left of a row
+ */
+#firewallContainer > div.isRootContext > span:first-of-type::before {
+    background-color: #7f7f7fff; }
+/**
+ Source for color-blind color scheme from https://github.com/WyohKnott:
+ https://github.com/chrisaljoudi/uBlock/issues/467#issuecomment-95177219
+ */
+#firewallContainer > div.allowed > span:first-of-type::before,
+#firewallContainer > div.isDomain.totalAllowed > span:first-of-type::before {
+    background-color: #00a000ff; }
+#firewallContainer.colorBlind > div.allowed > span:first-of-type::before,
+#firewallContainer.colorBlind > div.isDomain.totalAllowed > span:first-of-type::before {
+    background-color: #ffc239ff; }
+#firewallContainer > div.blocked > span:first-of-type::before,
+#firewallContainer > div.isDomain.totalBlocked > span:first-of-type::before {
+    background-color: #c00000ff; }
+#firewallContainer.colorBlind > div.blocked > span:first-of-type::before,
+#firewallContainer.colorBlind > div.isDomain.totalBlocked > span:first-of-type::before {
+    background-color: #00136eff; }
+#firewallContainer > div.allowed.blocked > span:first-of-type::before,
+#firewallContainer > div.isDomain.totalAllowed.totalBlocked > span:first-of-type::before {
+    background-color: #c0a000ff; }
+/* Rule cells */
+body.advancedUser #firewallContainer > div > span.allowRule {
+    background-color: #009e004d; }
+body.advancedUser #firewallContainer.colorBlind > div > span.allowRule {
+    background-color: #ffc23966; }
+body.advancedUser #firewallContainer > div > span.blockRule {
+    background-color: #c000004d; }
+body.advancedUser #firewallContainer.colorBlind > div > span.blockRule {
+    background-color: #00136e66; }
+body.advancedUser #firewallContainer > div > span.noopRule {
+    background-color: #6c6c6c4d; }
+body.advancedUser #firewallContainer.colorBlind > div > span.noopRule {
+    background-color: #60606066; }
+body.advancedUser #firewallContainer > div > span.ownRule {
+    color: #ffffffff; }
+body.advancedUser #firewallContainer > div > span.allowRule.ownRule {
+    background-color: #00a000ff; }
+body.advancedUser #firewallContainer.colorBlind > div > span.allowRule.ownRule {
+    background-color: #ffc239ff; }
+body.advancedUser #firewallContainer > div > span.blockRule.ownRule {
+    background-color: #c00000ff; }
+body.advancedUser #firewallContainer.colorBlind > div > span.blockRule.ownRule {
+    background-color: #00136eff; }
+body.advancedUser #firewallContainer > div > span.noopRule.ownRule {
+    background-color: #6c6c6cff; }
+
+#actionSelector > span:first-of-type {
+    background-color: #00a000ff; }
+#actionSelector.colorBlind > span:first-of-type {
+    background-color: #ffc239ff; }
+#actionSelector > span:nth-of-type(2) {
+    background-color: #6c6c6c; }
+#actionSelector > span:nth-of-type(3) {
+    background-color: #c00000ff; }
+#actionSelector.colorBlind > span:nth-of-type(3) {
+    background-color: #00136eff; }

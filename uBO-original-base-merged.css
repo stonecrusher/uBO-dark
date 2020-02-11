@@ -1,214 +1,167 @@
 /* shortcuts.css */
 /*************************/
 .commandEntries td.commandShortcut input:focus {
-  outline-color: #0000ffff;
-}
+    outline-color: #0000ffff; }
 .commandEntries td.commandShortcut input ~ .commandReset {
-  color: #888888ff;
-}
+    color: #888888ff; }
 .commandEntries td.commandShortcut input ~ .commandReset:hover {
-  background-color: #eeeeeeff;
-  color: #000000ff;
-}
+    background-color: #eeeeeeff;
+    color: #000000ff; }
 
 /* advanced-settings.css */
 /*************************/
 #advancedSettings {
-  border-top: 1px solid #ddddddff;
-}
+    border-top: 1px solid #ddddddff; }
 
 /* cloud-ui.css */
 /*************************/
 #cloudWidget {
-  background: url("../img/cloud.png") #dbeaffff;
-}
+    background: url("../img/cloud.png") #dbeaffff; }
 #cloudWidget button.error {
-  color: #ff0000ff;
-}
+    color: #ff0000ff; }
 #cloudInfo {
-  color: #808080ff;
-}
+    color: #808080ff; }
 #cloudError {
-  color: #ff0000ff;
-}
+    color: #ff0000ff; }
 #cloudWidget > #cloudOptions {
-  background-color: #000000bf;
-}
+    background-color: #000000bf; }
 #cloudWidget > #cloudOptions > div {
-  background-color: #ffffffff;
-}
+    background-color: #ffffffff; }
 
 /* 3p-filters.css */
 /*************************/
 #listsOfBlockedHostsPrompt:before {
-  color: #888888ff;
-}
+    color: #888888ff; }
 .groupEntry:not([data-groupkey="user"]) .geDetails:before {
-  color: #888888ff;
-}
+    color: #888888ff; }
 .listEntry > a.remove,
 .listEntry > a.remove:visited {
-  color: #8b0000ff;
-}
+    color: #8b0000ff; }
 .listEntry.mustread > a.mustread:hover {
-  color: #0000cdff;
-}
+    color: #0000cdff; }
 .listEntry span.status {
-  color: #444444ff;
-}
+    color: #444444ff; }
 .listEntry span.unsecure {
-  color: #8b0000ff;
-}
+    color: #8b0000ff; }
 .listEntry span.failed {
-  color: #8b0000ff;
-}
+    color: #8b0000ff; }
 .listEntry span.obsolete {
-  color: #cc7a00ff;
-}
+    color: #cc7a00ff; }
 .listEntry.toImport > input[type="checkbox"] ~ textarea {
-  border-color: #ccccccff;
-}
+    border-color: #ccccccff; }
 
 /* codemirror.css */
 /*************************/
 .cm-s-default .cm-comment {
-  color: #777777ff;
-}
+    color: #777777ff; }
 .cm-staticext {
-  color: #000088ff;
-}
+    color: #000088ff; }
 .cm-staticnetBlock {
-  color: #880000ff;
-}
+    color: #880000ff; }
 .cm-staticnetAllow {
-  color: #004f00ff;
-}
+    color: #004f00ff; }
 .cm-staticOpt {
-  background-color: #ddddddff;
-  font-weight: bold;
-}
+    background-color: #ddddddff;
+    font-weight: bold; }
 .cm-search-widget {
-  background-color: #eeeeeeff;
-}
+    background-color: #eeeeeeff; }
 .cm-search-widget .fa {
-  color: #888888ff;
-}
+    color: #888888ff; }
 .cm-search-widget-input {
-  border-color: #808080ff;
-}
+    border-color: #808080ff; }
 .cm-search-widget-input > .cm-search-widget-count {
-  color: #888888ff;
-}
+    color: #888888ff; }
 .cm-search-widget .cm-search-widget-button:hover {
-  color: #000000ff;
-}
+    color: #000000ff; }
 
 /* common.css */
 /*************************/
 body {
-  background-color: #ffffffff;
-  color: #000000ff;
-}
+    background-color: #ffffffff;
+    color: #000000ff; }
 code {
-  background-color: #eeeeeeff;
-}
+    background-color: #eeeeeeff; }
 button.custom {
-  border-color: #cccccc #cccccc #bbbbbb #bbbbbbff;
-  background-color: #bfbfbfff;
-  background-image: linear-gradient(#f2f2f2, #dddddd);
-  color: #000000ff;
-}
+    border-color: #cccccc #cccccc #bbbbbb #bbbbbbff;
+    background-color: #bfbfbfff;
+    background-image: linear-gradient(#f2f2f2, #dddddd);
+    color: #000000ff; }
 button.custom.important {
-  border-color: #ffcc7f #ffcc7f #ffc875ff;
-  background-color: #ffcc80ff;
-  background-image: linear-gradient(#ffdca8, #ffcc7f);
-}
+    border-color: #ffcc7f #ffcc7f #ffc875ff;
+    background-color: #ffcc80ff;
+    background-image: linear-gradient(#ffdca8, #ffcc7f); }
 button.custom.disabled,
 button.custom[disabled],
 button.custom.important.disabled,
 button.custom.important[disabled] {
-  border-color: #dddddd #dddddd #d9d9d9ff;
-  background-color: #b8b8b8ff;
-  background-image: linear-gradient(#f2f2f2, #dddddd);
-  color: #666666ff;
-}
+    border-color: #dddddd #dddddd #d9d9d9ff;
+    background-color: #b8b8b8ff;
+    background-image: linear-gradient(#f2f2f2, #dddddd);
+    color: #666666ff; }
 .ubo-icon.disabled,
 .disabled > .ubo-icon,
 .ubo-icon[disabled],
 [disabled] > .ubo-icon {
-  color: #000000ff;
-  fill: #000000ff;
-  stroke: #888888ff;
-}
+    color: #000000ff;
+    fill: #000000ff;
+    stroke: #888888ff; }
 
 /* dashboard.css */
 /*************************/
 #dashboard-nav-widgets {
-  background-color: #ffffffff;
-  border-bottom: 1px solid #ccccccff;
-}
+    background-color: #ffffffff;
+    border-bottom: 1px solid #ccccccff; }
 .tabButton {
-  background-color: #eeeeeeff;
-  border: 1px solid #ccccccff;
-  border-bottom: 1px solid #ccccccff;
-  color: #000000ff;
-}
+    background-color: #eeeeeeff;
+    border: 1px solid #ccccccff;
+    border-bottom: 1px solid #ccccccff;
+    color: #000000ff; }
 .tabButton.selected {
-  background-color: #ffffffff;
-  border-bottom: 1px solid #ffffffff;
-}
+    background-color: #ffffffff;
+    border-bottom: 1px solid #ffffffff; }
+#unsavedWarning {
+    box-shadow: #80808066 0 4px 4px; }
+#unsavedWarning > div:first-of-type {
+    background-color: #ffffccff; }
 
 /* dashboard-common.css */
 /*************************/
 body {
-  background-color: #ffffffff;
-  color: #000000ff;
-}
+    background-color: #ffffffff;
+    color: #000000ff; }
 a.info {
-  color: #000000ff;
-}
+    color: #000000ff; }
 a.info.important {
-  color: #ff4500ff;
-}
+    color: #ff4500ff; }
 .whatisthis {
-  background: url('../img/help16.png') no-repeat;
-}
+    background: url('../img/help16.png') no-repeat; }
 .whatisthis-expandable {
-  border-color: #000000ff;
-  background-color: #F8F8F8ff;
-}
+    border-color: #000000ff;
+    background-color: #F8F8F8ff; }
 .warn {
-  background-color: #FEDAE0ff;
-}
+    background-color: #FEDAE0ff; }
 
 /* document-blocked.css */
 /*************************/
 .code {
-  background-color: #0000001a;
-}
+    background-color: #0000001a; }
 #warningSign > a {
-  fill: #f2a500ff;
-}
+    fill: #f2a500ff; }
 #parsed {
-  background-color: #f8f8f8ff;
-  border-color: #0000001a;
-  color: #808080ff;
-}
+    background-color: #f8f8f8ff;
+    border-color: #0000001a;
+    color: #808080ff; }
 
 /* dyna-rules.css */
 /*************************/
 #diff {
-  border-top: 1px solid #eeeeeeff;
-}
+    border-top: 1px solid #eeeeeeff; }
 #ruleFilter .fa {
-  color: #888888ff;
-}
+    color: #888888ff; }
 #diff.editing .CodeMirror-merge-left .CodeMirror {
-  color: #888888ff;
-}
+    color: #888888ff; }
 #diff.editing .CodeMirror-merge-editor .CodeMirror {
-  background-color: #ffffeeff;
-}
+    background-color: #ffffeeff; }
 
 /* fa-icons.css */
 /*************************/
@@ -216,390 +169,294 @@ a.info.important {
 .disabled > .fa-icon,
 .fa-icon[disabled],
 [disabled] > .fa-icon {
-  color: #000000ff;
-  fill: #000000ff;
-  stroke: #888888ff;
-}
+    color: #000000ff;
+    fill: #000000ff;
+    stroke: #888888ff; }
 
 /* logger-ui.css */
 /*************************/
 body {
-  background-color: #ffffffff;
-  color: #000000ff;
-}
+    background-color: #ffffffff;
+    color: #000000ff; }
 .permatoolbar {
-  background-color: #ffffffff;
-}
+    background-color: #ffffffff; }
 .permatoolbar .button.active {
-  fill: #5F9EA0ff;
-}
+    fill: #5F9EA0ff; }
 .permatoolbar .button:hover {
-  background-color: #eeeeeeff;
-}
+    background-color: #eeeeeeff; }
 #info {
-  fill: #ccccccff;
-}
+    fill: #ccccccff; }
 #info:hover {
-  fill: #000000ff;
-}
+    fill: #000000ff; }
 #netInspector.paused #pause > span:last-of-type {
-  fill: #5F9EA0ff;
-}
+    fill: #5F9EA0ff; }
 #netInspector #filterExprPicker {
-  background-color: #ffffffff;
-  border-color: #808080ff;
-}
+    background-color: #ffffffff;
+    border-color: #808080ff; }
 #netInspector #filterExprPicker > div {
-  border-color: #ddddddff;
-}
+    border-color: #ddddddff; }
 #netInspector #filterExprPicker span[data-filtex]:hover {
-  background-color: #f0f8ffff;
-}
+    background-color: #f0f8ffff; }
 #netInspector #filterExprPicker span.on[data-filtex] {
-  background-color: #add8e6ff;
-  border-color: #add8e6ff;
-}
+    background-color: #add8e6ff;
+    border-color: #add8e6ff; }
 #vwRenderer .logEntry > div[data-status="1"],
 #netFilteringDialog > .panes > .details > div[data-status="1"] {
-  background-color: #cc00001a;
-}
+    background-color: #cc00001a; }
 #vwRenderer .logEntry > div[data-status="3"] {
-  background-color: #6c6c6c1a;
-}
+    background-color: #6c6c6c1a; }
 #vwRenderer .logEntry > div[data-status="2"],
 #netFilteringDialog > .panes > .details > div[data-status="2"] {
-  background-color: #00a0001a;
-}
+    background-color: #00a0001a; }
 #vwRenderer .logEntry > div[data-tabid="-1"] {
-  text-shadow: 0 0.2em 0.4em #aaaaaaff;
-}
+    text-shadow: 0 0.2em 0.4em #aaaaaaff; }
 #vwRenderer .logEntry > div.cosmetic,
 #vwRenderer .logEntry > div.redirect {
-  background-color: #ffff001a;
-}
+    background-color: #ffff001a; }
 #vwRenderer .logEntry > div[data-type="tabLoad"] {
-  background-color: #666666ff;
-  color: #ffffffff;
-}
+    background-color: #666666ff;
+    color: #ffffffff; }
 #vwRenderer .logEntry > div[data-type="error"] {
-  color: #880000ff;
-}
+    color: #880000ff; }
 #vwRenderer .logEntry > div[data-type="info"] {
-  color: #000088ff;
-}
+    color: #000088ff; }
 #vwRenderer .logEntry > div > span {
-  border-color: #ccccccff;
-}
+    border-color: #ccccccff; }
 #vwRenderer .logEntry > div.canDetails:hover > span {
-  background-color: #0000000a;
-}
+    background-color: #0000000a; }
 #vwRenderer .logEntry > div.canDetails:hover > span:nth-of-type(2),
 #vwRenderer .logEntry > div.canDetails:hover > span:nth-of-type(3),
 #vwRenderer .logEntry > div.canDetails:hover > span:nth-of-type(5) {
-  background: #0000ff1a;
-}
+    background: #0000ff1a; }
 #vwRenderer .logEntry > div[data-status="1"] > span:nth-of-type(7) b,
 #netFilteringDialog > .panes > .details > div[data-status="1"] b {
-  background-color: #cc000033;
-}
+    background-color: #cc000033; }
 #vwRenderer .logEntry > div[data-status="3"] > span:nth-of-type(7) b {
-  background-color: #6c6c6c33;
-}
+    background-color: #6c6c6c33; }
 #vwRenderer .logEntry > div[data-status="2"] > span:nth-of-type(7) b,
 #netFilteringDialog > .panes > .details > div[data-status="2"] b {
-  background-color: #00a00033;
-}
+    background-color: #00a00033; }
 #vwRenderer #vwBottom {
-  background-color: #0000ffff;
-}
+    background-color: #0000ffff; }
 #popupContainer {
-  background: #ffffffff;
-  border-color: #808080ff;
-}
+    background: #ffffffff;
+    border-color: #808080ff; }
 #modalOverlay {
-  background-color: rgba(0, 0, 0, 0.5);
-}
+    background-color: rgba(0, 0, 0, 0.5); }
 #modalOverlay > div > div:nth-of-type(1) {
-  background-color: #ffffffff;
-}
+    background-color: #ffffffff; }
 #modalOverlay > div > div:nth-of-type(2) {
-  stroke: #000000ff;
-  background-color: #ffffffff;
-}
+    stroke: #000000ff;
+    background-color: #ffffffff; }
 #modalOverlay > div > div:nth-of-type(2):hover {
-  background-color: #eeeeeeff;
-}
+    background-color: #eeeeeeff; }
 #netFilteringDialog > .preview {
-  /* http://lea.verou.me/css3patterns/ */
-  background-color: #aaaaaaff;
-  background-image: linear-gradient( 45deg,
-  #666666 25%,
-  transparent 25%,
-  transparent 75%,
-  #666666 75%,
-  #666666),
-  linear-gradient( 45deg,
-  #666666 25%,
-  transparent 25%,
-  transparent 75%,
-  #666666 75%,
-  #666666);
-}
+    /* http://lea.verou.me/css3patterns/ */
+    background-color: #aaaaaaff;
+    background-image: linear-gradient( 45deg,
+    #666666 25%,
+    transparent 25%,
+    transparent 75%,
+    #666666 75%,
+    #666666),
+    linear-gradient( 45deg,
+    #666666 25%,
+    transparent 25%,
+    transparent 75%,
+    #666666 75%,
+    #666666); }
 #netFilteringDialog > .preview > * {
-  background-color: #ffffffff;
-}
+    background-color: #ffffffff; }
 #netFilteringDialog > .headers {
-  border-bottom: 1px solid #888888ff;
-}
+    border-bottom: 1px solid #888888ff; }
 #netFilteringDialog > .headers > .header {
-  background-color: #eeeeeeff;
-  border: 1px solid #aaaaaaff;
-  border-bottom: 1px solid #888888ff;
-  color: #888888ff;
-}
+    background-color: #eeeeeeff;
+    border: 1px solid #aaaaaaff;
+    border-bottom: 1px solid #888888ff;
+    color: #888888ff; }
 #netFilteringDialog[data-pane="details"] > .headers > [data-pane="details"],
 #netFilteringDialog[data-pane="dynamic"] > .headers > [data-pane="dynamic"],
 #netFilteringDialog[data-pane="static"] > .headers > [data-pane="static"] {
-  background-color: #ffffffff;
-  border-color: #888888ff;
-  border-bottom: 1px solid #ffffffff;
-  color: #000000ff;
-}
+    background-color: #ffffffff;
+    border-color: #888888ff;
+    border-bottom: 1px solid #ffffffff;
+    color: #000000ff; }
 #netFilteringDialog > .headers > .tools > span:hover {
-  background-color: #eeeeeeff;
-}
+    background-color: #eeeeeeff; }
 #netFilteringDialog > .panes > .details > div {
-  background-color: #e6e6e6ff;
-  border-bottom: 1px solid #ffffffff;
-}
+    background-color: #e6e6e6ff;
+    border-bottom: 1px solid #ffffffff; }
 body[dir="ltr"] #netFilteringDialog > .panes > .details > div > span:nth-of-type(1) {
-  border-right: 1px solid #ffffffff;
-}
+    border-right: 1px solid #ffffffff; }
 body[dir="rtl"] #netFilteringDialog > .panes > .details > div > span:nth-of-type(1) {
-  border-left: 1px solid #ffffffff;
-}
+    border-left: 1px solid #ffffffff; }
 body[dir="ltr"] #netFilteringDialog > div.panes > .dynamic .row > span:nth-of-type(1) {
-  border-right: 1px solid #ffffffff;
-}
+    border-right: 1px solid #ffffffff; }
 body[dir="rtl"] #netFilteringDialog > div.panes > .dynamic .row > span:nth-of-type(1) {
-  border-left: 1px solid #ffffffff;
-}
+    border-left: 1px solid #ffffffff; }
 #netFilteringDialog > div.panes > .dynamic > .toolbar #saveRules {
-  background-color: #ffffeeff;
-  border: 1px solid #ddddccff;
-  fill: #888888ff;
-}
+    background-color: #ffffeeff;
+    border: 1px solid #ddddccff;
+    fill: #888888ff; }
 #netFilteringDialog > div.panes > .dynamic > .toolbar #saveRules:hover {
-  fill: #000000ff;
-}
+    fill: #000000ff; }
 #netFilteringDialog > div.panes > .dynamic .entry {
-  background-color: #e6e6e6ff;
-  border-bottom: 1px solid #ffffffff;
-}
+    background-color: #e6e6e6ff;
+    border-bottom: 1px solid #ffffffff; }
 #netFilteringDialog > div.panes > .dynamic .entry:hover {
-  background-color: #f0f0f0ff;
-}
+    background-color: #f0f0f0ff; }
 #netFilteringDialog > div.panes > .dynamic .entry > .action.allow {
-  background-color: #00a0004d;
-  /* see #00a0004c */
-}
+    background-color: #00a0004d;
+    /* see #00a0004c */ }
 #netFilteringDialog > div.panes > .dynamic .entry > .action.noop {
-  background-color: #6c6c6c4d;
-  /* see #6c6c6c4d */
-}
+    background-color: #6c6c6c4d;
+    /* see #6c6c6c4d */ }
 #netFilteringDialog > div.panes > .dynamic .entry > .action.block {
-  background-color: #cc00004d;
-  /* see #cc00004d */
-}
+    background-color: #cc00004d;
+    /* see #cc00004d */ }
 #netFilteringDialog > div.panes > .dynamic .entry > .action.own.allow {
-  background-color: #00a000ff;
-}
+    background-color: #00a000ff; }
 #netFilteringDialog > div.panes > .dynamic .entry > .action.own.noop {
-  background-color: #6c6c6cff;
-}
+    background-color: #6c6c6cff; }
 #netFilteringDialog > div.panes > .dynamic .entry > .action.own.block {
-  background-color: #cc0000ff;
-}
+    background-color: #cc0000ff; }
 #netFilteringDialog > div.panes > .dynamic .entry > .action > .allow {
-  background-color: #00a000ff;
-}
+    background-color: #00a000ff; }
 #netFilteringDialog > div.panes > .dynamic .entry > .action > .noop {
-  background-color: #6c6c6cff;
-}
+    background-color: #6c6c6cff; }
 #netFilteringDialog > div.panes > .dynamic .entry > .action > .block {
-  background-color: #cc0000ff;
-}
+    background-color: #cc0000ff; }
 #filterFinderDialog code {
-  background: #eeeeeeff;
-}
+    background: #eeeeeeff; }
 #loggerExportDialog .options span[data-i18n] {
-  border: 1px solid #add8e6ff;
-}
+    border: 1px solid #add8e6ff; }
 #loggerExportDialog .options span[data-i18n]:hover {
-  background-color: #f0f8ffff;
-}
+    background-color: #f0f8ffff; }
 #loggerExportDialog .options span.on[data-i18n],
 #loggerExportDialog .options span.pushbutton:active {
-  background-color: #add8e6ff;
-}
+    background-color: #add8e6ff; }
 
 /* logger-ui-inspector.css */
 /*************************/
 #domInspector ul {
-  background-color: #ffffffff;
-}
+    background-color: #ffffffff; }
 #domInspector li.isCosmeticHide,
 #domInspector li.isCosmeticHide ul,
 #domInspector li.isCosmeticHide li {
-  background-color: #fee;
-}
+    background-color: #fee; }
 #domInspector li > span {
-  color: #aaaaaaff;
-}
+    color: #aaaaaaff; }
 #domInspector li > span:first-child {
-  color: #000000ff;
-}
+    color: #000000ff; }
 #domInspector li.branch.hasCosmeticHide > span:first-child:before {
-  color: #ff0000ff;
-}
+    color: #ff0000ff; }
 #domInspector li > code.filter {
-  color: #ff0000ff;
-}
+    color: #ff0000ff; }
 
 /* popup.css */
 /*************************/
 body {
-  background-color: #ffffffff;
-}
+    background-color: #ffffffff; }
 h2 {
-  background-color: #eeeeeeff;
-  color: #666666ff;
-}
+    background-color: #eeeeeeff;
+    color: #666666ff; }
 #appinfo {
-  background-color: #444444ff;
-  color: #bbbbbbff;
-}
+    background-color: #444444ff;
+    color: #bbbbbbff; }
 #switch .fa-icon {
-  fill: #0046ffff;
-}
+    fill: #0046ffff; }
 body.off #switch .fa-icon {
-  fill: #ccccccff;
-}
+    fill: #ccccccff; }
 .tool {
-  color: #aaaaaaff;
-  fill: #aaaaaaff;
-}
+    color: #aaaaaaff;
+    fill: #aaaaaaff; }
 .tool.enabled:hover {
-  color: #444444ff;
-  fill: #444444ff;
-}
+    color: #444444ff;
+    fill: #444444ff; }
 .statName {
-  color: #888888ff;
-}
+    color: #888888ff; }
 #extraTools {
-  background-color: #eeeeeeff;
-  color: #888888ff;
-  fill: #888888ff;
-}
+    background-color: #eeeeeeff;
+    color: #888888ff;
+    fill: #888888ff; }
 #extraTools > span > .nope {
-  stroke: #ff0000ff;
-}
+    stroke: #ff0000ff; }
 #extraTools > span:hover {
-  color: #222222ff;
-  fill: #222222ff;
-}
+    color: #222222ff;
+    fill: #222222ff; }
 #refresh {
-  background-color: #ffffeeff;
-  border: 1px solid #ddddccff;
-  fill: #888888ff;
-}
+    background-color: #ffffeeff;
+    border: 1px solid #ddddccff;
+    fill: #888888ff; }
 body.dirty #refresh:hover {
-  fill: #000000ff;
-}
+    fill: #000000ff; }
 #tooltip {
-  background-color: #ffffeeff;
-  border: 1px solid #808080ff;
-  box-shadow: 1px 1px 3px #808080ff;
-  color: #000000ff;
-}
+    background-color: #ffffeeff;
+    border: 1px solid #808080ff;
+    box-shadow: 1px 1px 3px #808080ff;
+    color: #000000ff; }
 #firewallContainer > div {
-  background-color: #e6e6e6ff;
-}
+    background-color: #e6e6e6ff; }
 #firewallContainer > div:hover {
-  background-color: #f0f0f0ff;
-}
+    background-color: #f0f0f0ff; }
 #firewallContainer > div > span {
-  border-bottom: 1px solid #ffffffff;
-  color: #000000ff;
-}
+    border-bottom: 1px solid #ffffffff;
+    color: #000000ff; }
 #firewallContainer > div > span:first-of-type > sup {
-  color: #666666ff;
-}
+    color: #666666ff; }
 #firewallContainer > div > span:first-of-type ~ span {
-  border-left: 1px solid #ffffffff;
-}
+    border-left: 1px solid #ffffffff; }
 #firewallContainer > div > span:nth-of-type(3),
 #firewallContainer > div > span:nth-of-type(4) {
-  color: #444444ff;
-}
+    color: #444444ff; }
 #firewallContainer > div:first-of-type > span:first-of-type::before {
-  color: #aaaaaaff;
-}
+    color: #aaaaaaff; }
 /**
 Source for color-blind color scheme from https://github.com/WyohKnott:
 https://github.com/chrisaljoudi/uBlock/issues/467#issuecomment-95177219
 */
 #firewallContainer > div.allowed > span:first-of-type::before,
 #firewallContainer.minimized > div.isDomain.totalAllowed > span:first-of-type::before {
-  background-color: #00a000ff;
-}
+    background-color: #00a000ff; }
 #firewallContainer > div.blocked > span:first-of-type::before,
 #firewallContainer.minimized > div.isDomain.totalBlocked > span:first-of-type::before {
-  background-color: #cc0000ff;
-}
+    background-color: #cc0000ff; }
 #firewallContainer > div.allowed.blocked > span:first-of-type::before,
 #firewallContainer.minimized > div.isDomain.totalAllowed.totalBlocked > span:first-of-type::before {
-  background-color: #c0a000ff;
-}
+    background-color: #c0a000ff; }
 /* Rule cells */
 body.advancedUser #firewallContainer > div > span.allowRule {
-  background-color: #00a0004d;
-}
+    background-color: #00a0004d; }
 body.advancedUser #firewallContainer > div > span.blockRule {
-  background-color: #cc00004d;
-}
+    background-color: #cc00004d; }
 body.advancedUser #firewallContainer > div > span.noopRule {
-  background-color: #6c6c6c4d;
-}
+    background-color: #6c6c6c4d; }
 body.advancedUser #firewallContainer > div > span.ownRule {
-  color: #ffffffff;
-}
+    color: #ffffffff; }
 body.advancedUser #firewallContainer > div > span.allowRule.ownRule {
-  background-color: #00a000ff;
-}
+    background-color: #00a000ff; }
 body.advancedUser #firewallContainer > div > span.blockRule.ownRule {
-  background-color: #cc0000ff;
-}
+    background-color: #cc0000ff; }
 body.advancedUser #firewallContainer > div > span.noopRule.ownRule {
-  background-color: #6c6c6cff;
-}
+    background-color: #6c6c6cff; }
 #actionSelector > span:first-of-type {
-  background-color: #00a000ff;
-}
+    background-color: #00a000ff; }
 #actionSelector > span:nth-of-type(2) {
-  background-color: #6c6c6cff;
-}
+    background-color: #6c6c6cff; }
 #actionSelector > span:nth-of-type(3) {
-  background-color: #cc0000ff;
-}
+    background-color: #cc0000ff; }
 #rulesetTools {
-  background-color: transparent;
-  fill: #888888ff;
-}
+    background-color: transparent;
+    fill: #888888ff; }
 #rulesetTools > span {
-  background-color: #ffffeeff;
-  border: 1px solid #ddddccff;
-}
+    background-color: #ffffeeff;
+    border: 1px solid #ddddccff; }
 #firewallContainer.dirty ~ #rulesetTools > span:hover {
-  fill: #000000ff;
-}
+    fill: #000000ff; }
+
+/* whitelist.css */
+/*************************/
+.codeMirrorContainer .cm-builtin {
+    color: #0000ffff; }
+.codeMirrorContainer .cm-comment.cm-builtin {
+    color: #8888ffff; }
