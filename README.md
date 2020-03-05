@@ -1,6 +1,8 @@
 # uBO-dark
 Additional CSS to ShadowFox - rewrite
 
+See [here](https://github.com/stonecrusher/ShadowFox/blob/patch-1/css/userContent-files/webextension-tweaks/ublock_origin.css) for the current working version (replace `uBlock0@raymondhill.net` with your uBO UUID as seen at `about:debugging` --> `This Firefox`).
+
 Unfinished attempt to rewrite dark uBO.
 
 Took all the original uBO css and filtered everything that relates to colors.
